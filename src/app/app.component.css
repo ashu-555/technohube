@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    height: 100%;
+}
+body{
+    height: 500%;
+}
+footer{
+    height: 25%;
+}
+
+.content-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* On Mobiles (screen width <= 767px) */
+  @media screen and (max-width: 767px) {
+    .content-holder {
+      flex-direction: row;
+    }
+    
+    .text-div {
+      margin-left: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+
+<!-- stepe-1 :https://ng-bootstrap.github.io/#/home go to this link.
+stepe:2:Collapse /;serch
+stepe:3: (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed" paste it in ,,,,,toggle <button class=""></button>
+stepe:4:#collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed" paste it in target data <dive class=""></dive>
+stepe :5:public isCollapsed = false; write it in ts file -->
+
+
+<nav class="navbar navbar-expand-lg " style="padding-left: 5%; background-color: rgb(0, 0, 0);">
+  <a class="navbar-brand" style="color: blanchedalmond;" href="#">AscentIQ Technohube</a>
+  <button class="navbar-toggler" style="color: blanchedalmond;"  type="button" data-toggle="collapse" 
+   data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed">
+    <span  class="navbar-toggler-icon bg-light"></span> 
+
+    
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup"  #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+    <div class="navbar-nav" style="padding-left: 60%;">
+      <a class="nav-item nav-link active" style="color: blanchedalmond;" href="">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" style="color: blanchedalmond;" routerLink="aboute">Aboute</a>
+      <a class="nav-item nav-link active" style="color: blanchedalmond;" routerLink ="portfolio">Portfolio</a>
+      <a class="nav-item nav-link active" style="color: blanchedalmond;" routerLink ="services">Services</a>
+      <a class="nav-item nav-link active" style="color: blanchedalmond;" routerLink="contactus">Contact-Us</a>
+    </div>
+  </div>
+</nav>

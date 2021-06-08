@@ -1,0 +1,48 @@
+
+
+  .title-brand{
+    padding-top: 20%;
+    color: beige;
+    
+  }
+  .presentation-subtitle{
+    padding-top:3%;
+    color: beige;
+
+  }
+  .category-absolute{
+    padding-bottom: 10%;
+    padding-top: 2%;
+    color: beige;
+    text-align: center;
+
+  }
+ .page-header{
+  height: 100%;
+   background-repeat: no-repeat;
+ }
+ .wraper{
+   height: 80%;
+ }
+ .grid-container {
+    margin: 20px;
+  }
+  
+  .dashboard-card {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 15%;
+  }
+  
+  .more-button {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+  
+  .dashboard-card-content {
+    text-align: center;
+  }
+  
